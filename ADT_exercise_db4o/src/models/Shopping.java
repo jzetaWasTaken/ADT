@@ -12,7 +12,7 @@ import java.util.Date;
  *
  * @author ubuntu
  */
-public class Purchase {
+public class Shopping {
     private Date endDate;
     private Person assignee;
     private ArrayList<Person> followers;
@@ -23,7 +23,7 @@ public class Purchase {
     private float price;
     private Person payer;
 
-    public Purchase() {
+    public Shopping() {
         followers = new ArrayList<>();
         products = new ArrayList<>();
     }
